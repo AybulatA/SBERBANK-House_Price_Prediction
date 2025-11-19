@@ -166,13 +166,13 @@ uv sync
 Start the FastAPI service
 
 ``` bash
-uvicorn app.predict:app --reload
+uv run uvicorn app.predict:app --reload --host 0.0.0.0 --port 9696
 ```
 
 Send a test request
 
 ``` bash
-python app/request.py
+uv run python app/request.py
 ```
 
 ## Running with Docker
