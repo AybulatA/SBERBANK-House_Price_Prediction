@@ -14,8 +14,8 @@ print(f'numpy=={np.__version__}')
 print(f'sklearn=={sklearn.__version__}')
 
 def load_data():
-  df_full_train = pd.read_csv('data/train.csv')
-  df_macro = pd.read_csv('data/macro.csv')
+  df_full_train = pd.read_csv('../data/train.csv')
+  df_macro = pd.read_csv('../data/macro.csv')
 
   df_full_train.columns = df_full_train.columns.str.lower().str.replace(' ','_')
 

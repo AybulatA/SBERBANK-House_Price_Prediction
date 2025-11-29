@@ -207,6 +207,16 @@ uv sync
 jupyter notebook
 ```
 The notebook is NOT required for deployment. It documents the analysis and modeling process only.
+To rerun the notebook, you need to download the raw data from Kaggle:
+[Sberbank Russian Housing Market Competition](https://www.kaggle.com/competitions/sberbank-russian-housing-market/data)
+
+Download the following files:
+
+- `train.csv`
+- `test.csv`
+- `macro.csv`
+
+and place them inside the `data/` folder in the project root.
 
 ## Summary
 
